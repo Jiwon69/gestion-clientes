@@ -1,2 +1,29 @@
-# gestion-clientes
- Sistema de Gestión de Clientes (CRM) • Descripción: Un sistema para gestionar la relación con los clientes. • Módulos: o Gestión de clientes: Registro y administración de clientes. o Seguimiento de interacciones: Registro de llamadas, reuniones y correos. o Gestión de oportunidades: Monitoreo de oportunidades de negocio. o Gestión de ventas: Control del ciclo de ventas, desde la prospección hasta el cierre. o Reportes: Análisis de ventas, clientes, y proyecciones.
+# Sistema de Gestión de Clientes (CRM) - Java Web
+
+## Integrantes:
+- Angela Tejada Vergara
+- Yrahi Quispe Reyna
+
+## Descripción:
+Este CRM permite gestionar clientes, registrar interacciones y oportunidades de negocio, y generar reportes.
+
+## Modelo de Base de Datos:
+(Adjuntar imagen del diagrama)
+
+## Estructura del Código:
+📂 *crm-web*
+┣ 📂 *src*
+┃ ┣ 📂 models (Entidades)
+┃ ┣ 📂 dao (Acceso a Datos)
+┃ ┣ 📂 services (Lógica)
+┃ ┣ 📂 controllers (Servlets)
+┣ 📂 webapp (JSP + CSS + JS)
+┣ 📂 resources (Config. BD)
+
+## Cómo Ejecutarlo:
+1. Clonar este repositorio.
+2. Configurar MySQL y crear la BD con crm_db.sql.
+3. Importar el proyecto en Elipse.
+4. Ejecutar en Apache Tomcat.
+5. Acceder a http://localhost:8080/crm-web.
+
